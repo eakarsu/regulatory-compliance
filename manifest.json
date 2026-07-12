@@ -1,0 +1,30 @@
+{
+  "id": "regulatory-compliance",
+  "title": "Regulatory Compliance App",
+  "industry": "Legal, Compliance & Risk",
+  "industryId": "legal-compliance-risk",
+  "specialization": "Regulatory Compliance",
+  "sourcePlatformGroup": "regulatory-grc-platform",
+  "sources": [
+    "AICannabisCultivationCompliance",
+    "AIPermitZoningCompliance",
+    "AiRegulatoryCompliance",
+    "ai_regulatory_compliance"
+  ],
+  "featureCount": 211,
+  "candidateFeatureCount": 311,
+  "eliminatedSimilarFeatures": 100,
+  "evidenceCount": 974,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 1,
+    "seededTables": 20,
+    "seededRows": 300
+  },
+  "visibleFeatureCount": 18,
+  "featureVisibilityMode": "seeded-or-ai"
+}
