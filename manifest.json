@@ -11,10 +11,10 @@
     "AiRegulatoryCompliance",
     "ai_regulatory_compliance"
   ],
-  "featureCount": 211,
-  "candidateFeatureCount": 311,
-  "eliminatedSimilarFeatures": 100,
-  "evidenceCount": 974,
+  "featureCount": 226,
+  "candidateFeatureCount": 330,
+  "eliminatedSimilarFeatures": 104,
+  "evidenceCount": 1102,
   "aiPageCount": 0,
   "sourceAIPageCount": 0,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
@@ -25,6 +25,6 @@
     "seededTables": 20,
     "seededRows": 300
   },
-  "visibleFeatureCount": 18,
+  "visibleFeatureCount": 19,
   "featureVisibilityMode": "seeded-or-ai"
 }

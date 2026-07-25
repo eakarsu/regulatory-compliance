@@ -1,5 +1,31 @@
 [
   {
+    "name": "Agentic Compliance Copilot Generating Metrc Submis Page",
+    "canonicalKey": "agentic compliance copilot generating metrc submis",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AgenticComplianceCopilotGeneratingMetrcSubmisPage"
+    ],
+    "sourceProjects": [
+      "AICannabisCultivationCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/AgenticComplianceCopilotGeneratingMetrcSubmisPage.jsx",
+        "route": "/AgenticComplianceCopilotGeneratingMetrcSubmisPage",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
     "name": "AI Analyze Regulation",
     "canonicalKey": "ai analyze regulation",
     "aliases": [],
@@ -131,7 +157,7 @@
   },
   {
     "name": "AI Endpoints Scaffolded But Not Mounted Under Stan Page",
-    "canonicalKey": "ai but endpoints mounted not scaffolded stan under",
+    "canonicalKey": "ai but endpoint mounted not scaffolded stan under",
     "aliases": [],
     "kinds": [
       "page"
@@ -372,6 +398,13 @@
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
       {
+        "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/server.js:198",
+        "route": "/api/ai-history",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
         "kind": "navigation",
         "sourceProject": "AICannabisCultivationCompliance",
         "path": "frontend/src/components/Sidebar.jsx:43",
@@ -395,7 +428,7 @@
       {
         "kind": "navigation",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/components/Nav.tsx:61",
+        "path": "frontend/src/components/Nav.tsx:62",
         "route": "",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -405,13 +438,6 @@
         "path": "frontend/src/pages/AIHistory.tsx",
         "route": "/AIHistory",
         "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIGDPRDataMappingPrivacyManager",
-        "path": "backend/server.js:197",
-        "route": "/api/ai-history",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       }
     ]
   },
@@ -626,7 +652,7 @@
   },
   {
     "name": "AI Results History",
-    "canonicalKey": "ai history results",
+    "canonicalKey": "ai history result",
     "aliases": [],
     "kinds": [
       "page"
@@ -799,32 +825,6 @@
     ]
   },
   {
-    "name": "Agentic Compliance Copilot Generating Metrc Submis Page",
-    "canonicalKey": "agentic compliance copilot generating metrc submis",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/AgenticComplianceCopilotGeneratingMetrcSubmisPage"
-    ],
-    "sourceProjects": [
-      "AICannabisCultivationCompliance"
-    ],
-    "consolidatedFromApps": [
-      "legal-compliance-risk/regulatory-compliance"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICannabisCultivationCompliance",
-        "path": "frontend/src/pages/AgenticComplianceCopilotGeneratingMetrcSubmisPage.jsx",
-        "route": "/AgenticComplianceCopilotGeneratingMetrcSubmisPage",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
-      }
-    ]
-  },
-  {
     "name": "Alert Id",
     "canonicalKey": "alert id",
     "aliases": [],
@@ -854,7 +854,8 @@
     "name": "Alerts",
     "canonicalKey": "alert",
     "aliases": [
-      "Alert Management"
+      "Alert Management",
+      "Alerts Page"
     ],
     "kinds": [
       "api",
@@ -865,6 +866,7 @@
       "/:id/alerts",
       "/AlertManagement",
       "/Alerts",
+      "/AlertsPage",
       "/alerts"
     ],
     "sourceProjects": [
@@ -911,6 +913,41 @@
         "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/predictive.js:14",
+        "route": "/alerts",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "frontend/src/components/Sidebar.jsx:13",
+        "route": "",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "frontend/src/App.jsx:99",
+        "route": "/alerts",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "frontend/src/components/Sidebar.jsx:13",
+        "route": "/alerts",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "frontend/src/pages/AlertsPage.jsx",
+        "route": "/AlertsPage",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
         "kind": "navigation",
         "sourceProject": "AICannabisCultivationCompliance",
         "path": "frontend/src/components/Sidebar.jsx:27",
@@ -941,7 +978,7 @@
       {
         "kind": "page",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/App.tsx:49",
+        "path": "frontend/src/App.tsx:54",
         "route": "/alerts",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -951,34 +988,6 @@
         "path": "frontend/src/pages/Alerts.tsx",
         "route": "/Alerts",
         "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/predictive.js:14",
-        "route": "/alerts",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "frontend/src/components/Sidebar.jsx:13",
-        "route": "",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "frontend/src/App.jsx:99",
-        "route": "/alerts",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "frontend/src/components/Sidebar.jsx:13",
-        "route": "/alerts",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       },
       {
         "kind": "api",
@@ -1011,7 +1020,7 @@
       {
         "kind": "api",
         "sourceProject": "AINotaryDocumentVerification",
-        "path": "backend/routes/ai.js:146",
+        "path": "backend/routes/ai.js:147",
         "route": "/analyze-document",
         "originApp": "legal-compliance-risk/firmflow-ai-merged"
       },
@@ -1071,7 +1080,7 @@
       {
         "kind": "navigation",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/components/Nav.tsx:56",
+        "path": "frontend/src/components/Nav.tsx:57",
         "route": "",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -1162,9 +1171,11 @@
     ],
     "routes": [
       "/:id/approve",
-      "/api/public/proposals/:token/approve"
+      "/api/public/proposals/:token/approve",
+      "/resolutions/:id/approve"
     ],
     "sourceProjects": [
+      "AIConsumerComplaintResolutionAgent",
       "AIContractLifecycleManager",
       "AIContractNegotiationAssistant",
       "AIDigitalcasemanager",
@@ -1176,6 +1187,7 @@
       "legal-compliance-risk/contract-negotiation-assistant",
       "legal-compliance-risk/due-diligence-assistant",
       "legal-compliance-risk/immigration-case-manager",
+      "legal-compliance-risk/public-records-search-agent",
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
@@ -1185,6 +1197,13 @@
         "path": "backend/routes/actionPlans.js:75",
         "route": "/:id/approve",
         "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConsumerComplaintResolutionAgent",
+        "path": "backend/routes/complaintWorkflow.js:43",
+        "route": "/resolutions/:id/approve",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "api",
@@ -1202,13 +1221,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIProposalSOWGenerator",
-        "path": "backend/server.js:1424",
-        "route": "/api/public/proposals/:token/approve",
-        "originApp": "legal-compliance-risk/due-diligence-assistant"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIContractLifecycleManager",
         "path": "backend/routes/approvals.js:119",
         "route": "/:id/approve",
@@ -1220,6 +1232,13 @@
         "path": "backend/src/routes/approvals.js:95",
         "route": "/:id/approve",
         "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIProposalSOWGenerator",
+        "path": "backend/server.js:1427",
+        "route": "/api/public/proposals/:token/approve",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
       }
     ]
   },
@@ -1244,17 +1263,17 @@
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/routes/ai.js:451",
+        "route": "/assess-vendor",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AiRegulatoryCompliance",
         "path": "backend/src/routes/ai.js:89",
         "route": "/assess-vendor",
         "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIGDPRDataMappingPrivacyManager",
-        "path": "backend/routes/ai.js:448",
-        "route": "/assess-vendor",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       }
     ]
   },
@@ -1330,6 +1349,42 @@
         "path": "backend/src/routes/customViews.js:158",
         "route": "/attestation-pdf",
         "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "Audit Export",
+    "canonicalKey": "audit export",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/audit-export"
+    ],
+    "sourceProjects": [
+      "AIContractLifecycleManager",
+      "ai_regulatory_compliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/contract-negotiation-assistant",
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "routers/governance.py:233",
+        "route": "/audit-export",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIContractLifecycleManager",
+        "path": "backend/routes/ops.js:326",
+        "route": "/audit-export",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       }
     ]
   },
@@ -1421,14 +1476,14 @@
       {
         "kind": "navigation",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/components/Nav.tsx:60",
+        "path": "frontend/src/components/Nav.tsx:61",
         "route": "",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
       {
         "kind": "page",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/App.tsx:56",
+        "path": "frontend/src/App.tsx:61",
         "route": "/ai/backlog-tools",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       }
@@ -1606,6 +1661,13 @@
         "path": "routes/leads.js:895",
         "route": "/api/leads/bulk-update",
         "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/temperature.js:182",
+        "route": "/bulk",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       },
       {
         "kind": "api",
@@ -1868,218 +1930,211 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/temperature.js:182",
-        "route": "/bulk",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2545",
+        "path": "backend/server.js:2530",
         "route": "/api/companies/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2549",
+        "path": "backend/server.js:2534",
         "route": "/api/financials/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2553",
+        "path": "backend/server.js:2538",
         "route": "/api/news/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2557",
+        "path": "backend/server.js:2542",
         "route": "/api/risks/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2561",
+        "path": "backend/server.js:2546",
         "route": "/api/redflags/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2565",
+        "path": "backend/server.js:2550",
         "route": "/api/market/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2569",
+        "path": "backend/server.js:2554",
         "route": "/api/competitors/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2573",
+        "path": "backend/server.js:2558",
         "route": "/api/legal/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2577",
+        "path": "backend/server.js:2562",
         "route": "/api/management/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2581",
+        "path": "backend/server.js:2566",
         "route": "/api/deals/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2585",
+        "path": "backend/server.js:2570",
         "route": "/api/risk-scores/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2589",
+        "path": "backend/server.js:2574",
         "route": "/api/synergies/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2593",
+        "path": "backend/server.js:2578",
         "route": "/api/valuations/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2597",
+        "path": "backend/server.js:2582",
         "route": "/api/red-flag-detections/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2601",
+        "path": "backend/server.js:2586",
         "route": "/api/integration-plans/bulk-delete",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2546",
+        "path": "backend/server.js:2531",
         "route": "/api/companies/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2550",
+        "path": "backend/server.js:2535",
         "route": "/api/financials/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2554",
+        "path": "backend/server.js:2539",
         "route": "/api/news/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2558",
+        "path": "backend/server.js:2543",
         "route": "/api/risks/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2562",
+        "path": "backend/server.js:2547",
         "route": "/api/redflags/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2566",
+        "path": "backend/server.js:2551",
         "route": "/api/market/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2570",
+        "path": "backend/server.js:2555",
         "route": "/api/competitors/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2574",
+        "path": "backend/server.js:2559",
         "route": "/api/legal/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2578",
+        "path": "backend/server.js:2563",
         "route": "/api/management/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2582",
+        "path": "backend/server.js:2567",
         "route": "/api/deals/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2586",
+        "path": "backend/server.js:2571",
         "route": "/api/risk-scores/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2590",
+        "path": "backend/server.js:2575",
         "route": "/api/synergies/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2594",
+        "path": "backend/server.js:2579",
         "route": "/api/valuations/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2598",
+        "path": "backend/server.js:2583",
         "route": "/api/red-flag-detections/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/server.js:2602",
+        "path": "backend/server.js:2587",
         "route": "/api/integration-plans/bulk-update",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       }
@@ -2487,9 +2542,81 @@
       {
         "kind": "navigation",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/components/Nav.tsx:55",
+        "path": "frontend/src/components/Nav.tsx:56",
         "route": "",
         "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "Claim",
+    "canonicalKey": "claim",
+    "aliases": [
+      "Claims"
+    ],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/integrations/claim",
+      "/workspaces/:workspaceId/matters/:matterId/claims"
+    ],
+    "sourceProjects": [
+      "AIDueDiligenceAssistant",
+      "AIPermitZoningCompliance",
+      "AIRefugeeAsylumCaseManager",
+      "AISportsAgentContractAnalyzer",
+      "AIStrategicSourcingNegotiation",
+      "AiRegulatoryCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/contract-negotiation-assistant",
+      "legal-compliance-risk/due-diligence-assistant",
+      "legal-compliance-risk/immigration-case-manager",
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "backend/governance/router.js:264",
+        "route": "/integrations/claim",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/governance/router.js:246",
+        "route": "/integrations/claim",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/governance/router.js:331",
+        "route": "/integrations/claim",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISportsAgentContractAnalyzer",
+        "path": "backend/src/governance/router.js:331",
+        "route": "/integrations/claim",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIStrategicSourcingNegotiation",
+        "path": "backend/governance/router.js:331",
+        "route": "/integrations/claim",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDueDiligenceAssistant",
+        "path": "backend/routes/governedDiligence.js:16",
+        "route": "/workspaces/:workspaceId/matters/:matterId/claims",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
       }
     ]
   },
@@ -2657,7 +2784,7 @@
       {
         "kind": "api",
         "sourceProject": "AIStrategicSourcingNegotiation",
-        "path": "backend/routes/ai.js:319",
+        "path": "backend/routes/ai.js:295",
         "route": "/compliance-review",
         "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       }
@@ -2736,7 +2863,7 @@
       {
         "kind": "page",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/App.tsx:59",
+        "path": "frontend/src/App.tsx:63",
         "route": "/control-attestation-queue",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -2894,6 +3021,94 @@
     ]
   },
   {
+    "name": "Decision",
+    "canonicalKey": "decision",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/decision",
+      "/cases/:id/decision"
+    ],
+    "sourceProjects": [
+      "AIBailBondRiskAssessor",
+      "AIGDPRDataMappingPrivacyManager",
+      "AIGovernanceModelOps",
+      "AIPermitZoningCompliance",
+      "AIRefugeeAsylumCaseManager",
+      "AISportsAgentContractAnalyzer",
+      "AIStrategicSourcingNegotiation",
+      "AiRegulatoryCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/automatedatagovernance",
+      "legal-compliance-risk/contract-negotiation-assistant",
+      "legal-compliance-risk/gdpr-data-mapping-privacy-manager",
+      "legal-compliance-risk/immigration-case-manager",
+      "legal-compliance-risk/regulatory-compliance",
+      "legal-compliance-risk/tenant-rights-advisor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "backend/governance/router.js:130",
+        "route": "/:id/decision",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBailBondRiskAssessor",
+        "path": "server/routes/governedCases.js:4",
+        "route": "/:id/decision",
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGovernanceModelOps",
+        "path": "backend/routes/governanceWorkflow.js:44",
+        "route": "/cases/:id/decision",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/governance/router.js:107",
+        "route": "/:id/decision",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/governance/router.js:112",
+        "route": "/:id/decision",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/governance/router.js:131",
+        "route": "/:id/decision",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISportsAgentContractAnalyzer",
+        "path": "backend/src/governance/router.js:131",
+        "route": "/:id/decision",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIStrategicSourcingNegotiation",
+        "path": "backend/governance/router.js:131",
+        "route": "/:id/decision",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      }
+    ]
+  },
+  {
     "name": "Email",
     "canonicalKey": "email",
     "aliases": [],
@@ -2943,7 +3158,7 @@
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
-        "path": "backend/src/routes/aiNew.js:182",
+        "path": "backend/src/routes/aiNew.js:200",
         "route": "/energy-optimizer",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -3005,27 +3220,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIConsumerComplaintResolutionAgent",
-        "path": "backend/db.js:2",
-        "route": "../.env",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConsumerComplaintResolutionAgent",
-        "path": "backend/middleware/auth.js:2",
-        "route": "../../.env",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConsumerComplaintResolutionAgent",
-        "path": "backend/server.js:3",
-        "route": "../.env",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIDigitalcasemanager",
         "path": "backend/db.js:2",
         "route": "../.env",
@@ -3075,66 +3269,24 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIPermitZoningCompliance",
-        "path": "backend/ai.js:2",
-        "route": "../.env",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPermitZoningCompliance",
+        "sourceProject": "AIConsumerComplaintResolutionAgent",
         "path": "backend/db.js:2",
         "route": "../.env",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
+        "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPermitZoningCompliance",
-        "path": "backend/initDb.js:2",
-        "route": "../.env",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPermitZoningCompliance",
-        "path": "backend/server.js:6",
-        "route": "../.env",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiRegulatoryCompliance",
-        "path": "backend/src/config/database.js:2",
-        "route": "../.env",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiRegulatoryCompliance",
-        "path": "backend/src/middleware/auth.js:2",
+        "sourceProject": "AIConsumerComplaintResolutionAgent",
+        "path": "backend/middleware/auth.js:2",
         "route": "../../.env",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
+        "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/db.js:4",
+        "sourceProject": "AIConsumerComplaintResolutionAgent",
+        "path": "backend/server.js:3",
         "route": "../.env",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/seed.js:2",
-        "route": "../.env",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/server.js:2",
-        "route": "../.env",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+        "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "api",
@@ -3173,6 +3325,90 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/db.js:4",
+        "route": "../.env",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/seed.js:2",
+        "route": "../.env",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/server.js:2",
+        "route": "../.env",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/ai.js:2",
+        "route": "../.env",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/db.js:2",
+        "route": "../.env",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/initDb.js:2",
+        "route": "../.env",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/server.js:6",
+        "route": "../.env",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/src/config/database.js:3",
+        "route": "../.env",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/src/middleware/auth.js:2",
+        "route": "../../.env",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIContractNegotiationAssistant",
+        "path": "backend/scripts/create-user.js:2",
+        "route": "../.env",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIContractNegotiationAssistant",
+        "path": "backend/src/index.js:1",
+        "route": "../.env",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIContractNegotiationAssistant",
+        "path": "backend/src/seed.js:1",
+        "route": "../.env",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIDueDiligenceAssistant",
         "path": "backend/db.js:2",
         "route": "../.env",
@@ -3198,20 +3434,6 @@
         "path": "backend/db.js:2",
         "route": "../.env",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIContractNegotiationAssistant",
-        "path": "backend/src/index.js:1",
-        "route": "../.env",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIContractNegotiationAssistant",
-        "path": "backend/src/seed.js:1",
-        "route": "../.env",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       }
     ]
   },
@@ -3263,6 +3485,144 @@
         "path": "frontend/src/pages/EnvironmentalAlerts.jsx",
         "route": "/EnvironmentalAlerts",
         "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "Erasure Complete",
+    "canonicalKey": "complete erasure",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/erasure-complete"
+    ],
+    "sourceProjects": [
+      "AIGDPRDataMappingPrivacyManager",
+      "AIPermitZoningCompliance",
+      "AIRefugeeAsylumCaseManager",
+      "AISportsAgentContractAnalyzer",
+      "AIStrategicSourcingNegotiation",
+      "AiRegulatoryCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/contract-negotiation-assistant",
+      "legal-compliance-risk/gdpr-data-mapping-privacy-manager",
+      "legal-compliance-risk/immigration-case-manager",
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "backend/governance/router.js:237",
+        "route": "/:id/erasure-complete",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/governance/router.js:176",
+        "route": "/:id/erasure-complete",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/governance/router.js:219",
+        "route": "/:id/erasure-complete",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/governance/router.js:238",
+        "route": "/:id/erasure-complete",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISportsAgentContractAnalyzer",
+        "path": "backend/src/governance/router.js:238",
+        "route": "/:id/erasure-complete",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIStrategicSourcingNegotiation",
+        "path": "backend/governance/router.js:238",
+        "route": "/:id/erasure-complete",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      }
+    ]
+  },
+  {
+    "name": "Erasure Request",
+    "canonicalKey": "erasure request",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/erasure-request"
+    ],
+    "sourceProjects": [
+      "AIGDPRDataMappingPrivacyManager",
+      "AIPermitZoningCompliance",
+      "AIRefugeeAsylumCaseManager",
+      "AISportsAgentContractAnalyzer",
+      "AIStrategicSourcingNegotiation",
+      "AiRegulatoryCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/contract-negotiation-assistant",
+      "legal-compliance-risk/gdpr-data-mapping-privacy-manager",
+      "legal-compliance-risk/immigration-case-manager",
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "backend/governance/router.js:207",
+        "route": "/:id/erasure-request",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/governance/router.js:159",
+        "route": "/:id/erasure-request",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/governance/router.js:189",
+        "route": "/:id/erasure-request",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/governance/router.js:208",
+        "route": "/:id/erasure-request",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISportsAgentContractAnalyzer",
+        "path": "backend/src/governance/router.js:208",
+        "route": "/:id/erasure-request",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIStrategicSourcingNegotiation",
+        "path": "backend/governance/router.js:208",
+        "route": "/:id/erasure-request",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       }
     ]
   },
@@ -3531,7 +3891,7 @@
       {
         "kind": "page",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/App.tsx:52",
+        "path": "frontend/src/App.tsx:57",
         "route": "/ai/gap",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       }
@@ -3610,7 +3970,7 @@
       {
         "kind": "navigation",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/components/Nav.tsx:58",
+        "path": "frontend/src/components/Nav.tsx:59",
         "route": "",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -3625,7 +3985,7 @@
   },
   {
     "name": "Gap Approval Workflows Policy Sign Offs",
-    "canonicalKey": "approval gap offs policy sign workflows",
+    "canonicalKey": "approval gap offs policy sign workflow",
     "aliases": [],
     "kinds": [
       "page"
@@ -3791,7 +4151,7 @@
   },
   {
     "name": "Gap Existing Aihistory Js And Aipermit Js Stubs Need R Page",
-    "canonicalKey": "aihistory aipermit and existing gap js need r stubs",
+    "canonicalKey": "aihistory aipermit and existing gap js need r stub",
     "aliases": [
       "Gap Existing Aihistory Js And Aipermit Js Stubs Need R"
     ],
@@ -3827,7 +4187,7 @@
   },
   {
     "name": "Gap External Regulation Data Feeds Sec",
-    "canonicalKey": "data external feeds gap regulation sec",
+    "canonicalKey": "data external feed gap regulation sec",
     "aliases": [],
     "kinds": [
       "page"
@@ -3853,7 +4213,7 @@
   },
   {
     "name": "Gap Inspections Without Inspection Page",
-    "canonicalKey": "gap inspection inspections without",
+    "canonicalKey": "gap inspection without",
     "aliases": [
       "Gap Inspections Without Inspection"
     ],
@@ -3915,7 +4275,7 @@
   },
   {
     "name": "Gap Limited Frontend Only 7 Pages For 19",
-    "canonicalKey": "19 7 for frontend gap limited only pages",
+    "canonicalKey": "19 7 for frontend gap limited only page",
     "aliases": [],
     "kinds": [
       "page"
@@ -3941,7 +4301,7 @@
   },
   {
     "name": "Gap Limited Frontend Only7 Pages For19 Page",
-    "canonicalKey": "for19 frontend gap limited only7 pages",
+    "canonicalKey": "for19 frontend gap limited only7 page",
     "aliases": [],
     "kinds": [
       "page"
@@ -3967,7 +4327,7 @@
   },
   {
     "name": "Gap Limited Integration With Title Deed Records Integr Page",
-    "canonicalKey": "deed gap integr integration limited records title with",
+    "canonicalKey": "deed gap integr integration limited record title with",
     "aliases": [
       "Gap Limited Integration With Title Deed Records Integr"
     ],
@@ -4037,7 +4397,7 @@
   },
   {
     "name": "Gap Multi Tenant Separation Primitives Visible",
-    "canonicalKey": "gap multi primitives separation tenant visible",
+    "canonicalKey": "gap multi primitive separation tenant visible",
     "aliases": [],
     "kinds": [
       "page"
@@ -4320,10 +4680,10 @@
     ]
   },
   {
-    "name": "Gap No Document Versioning For Plans",
+    "name": "Gap No Document Versioning For Plans Page",
     "canonicalKey": "document for gap no plan versioning",
     "aliases": [
-      "Gap No Document Versioning For Plans Page"
+      "Gap No Document Versioning For Plans"
     ],
     "kinds": [
       "page"
@@ -4461,7 +4821,7 @@
   },
   {
     "name": "Gap No Notifications Layer Grep Shows Only 1 Mention",
-    "canonicalKey": "1 gap grep layer mention no notifications only shows",
+    "canonicalKey": "1 gap grep layer mention no notification only show",
     "aliases": [],
     "kinds": [
       "page"
@@ -4487,7 +4847,7 @@
   },
   {
     "name": "Gap No Notifications Layer Grep Shows Only1 Mention Page",
-    "canonicalKey": "gap grep layer mention no notifications only1 shows",
+    "canonicalKey": "gap grep layer mention no notification only1 show",
     "aliases": [],
     "kinds": [
       "page"
@@ -4718,10 +5078,10 @@
     ]
   },
   {
-    "name": "Gap No Webhooks For Inspection Scheduling Triggers",
+    "name": "Gap No Webhooks For Inspection Scheduling Triggers Page",
     "canonicalKey": "for gap inspection no scheduling trigger webhook",
     "aliases": [
-      "Gap No Webhooks For Inspection Scheduling Triggers Page"
+      "Gap No Webhooks For Inspection Scheduling Triggers"
     ],
     "kinds": [
       "page"
@@ -4781,7 +5141,7 @@
   },
   {
     "name": "Gap Plans Without Plan Page",
-    "canonicalKey": "gap plan plans without",
+    "canonicalKey": "gap plan without",
     "aliases": [
       "Gap Plans Without Plan"
     ],
@@ -4921,7 +5281,7 @@
   },
   {
     "name": "Gap Violations Without Violation Page",
-    "canonicalKey": "gap violation violations without",
+    "canonicalKey": "gap violation without",
     "aliases": [
       "Gap Violations Without Violation"
     ],
@@ -5022,6 +5382,20 @@
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/ai.js:165",
+        "route": "/generate-policy",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/routes/ai.js:245",
+        "route": "/generate-policy",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AiRegulatoryCompliance",
         "path": "backend/src/routes/ai.js:49",
         "route": "/generate-policy",
@@ -5030,7 +5404,7 @@
       {
         "kind": "navigation",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/components/Nav.tsx:59",
+        "path": "frontend/src/components/Nav.tsx:60",
         "route": "",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -5040,20 +5414,6 @@
         "path": "routers/ai.py:275",
         "route": "/generate-policy",
         "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIGDPRDataMappingPrivacyManager",
-        "path": "backend/routes/ai.js:242",
-        "route": "/generate-policy",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/ai.js:165",
-        "route": "/generate-policy",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
       }
     ]
   },
@@ -5105,6 +5465,32 @@
         "sourceProject": "AiRegulatoryCompliance",
         "path": "backend/src/routes/ai.js:169",
         "route": "/generate-training",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "Governance Workflow",
+    "canonicalKey": "governance workflow",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GovernanceWorkflow"
+    ],
+    "sourceProjects": [
+      "ai_regulatory_compliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "frontend/src/pages/GovernanceWorkflow.tsx",
+        "route": "/GovernanceWorkflow",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       }
     ]
@@ -5292,7 +5678,7 @@
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
-        "path": "backend/src/routes/aiNew.js:146",
+        "path": "backend/src/routes/aiNew.js:164",
         "route": "/harvest-timing-optimizer",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -5417,6 +5803,7 @@
       "AICourtReportingLegalTranscription",
       "AIDigitalcasemanager",
       "AIDivorceFamilyLawNavigator",
+      "AIDueDiligenceAssistant",
       "AIESGSustainabilityReporter",
       "AIEstatePlanningDigitalLegacy",
       "AIGDPRDataMappingPrivacyManager",
@@ -5456,7 +5843,7 @@
       {
         "kind": "api",
         "sourceProject": "AICourtReportingLegalTranscription",
-        "path": "server/routes/caseComplexity.js:94",
+        "path": "server/routes/caseComplexity.js:95",
         "route": "/case-complexity/health",
         "originApp": "legal-compliance-risk/firmflow-ai-merged"
       },
@@ -5547,9 +5934,142 @@
       {
         "kind": "api",
         "sourceProject": "AINotaryDocumentVerification",
-        "path": "backend/server.js:31",
+        "path": "backend/server.js:36",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/earlyIntervene.js:94",
+        "route": "/early-intervene/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/gap_beneficiaries_goals_referrals_lack_ai_endpoints_for_risk_pre.js:112",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/gap_communications_lacks_generate_communication_plan.js:112",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/gap_limited_integration_with_social_service_databases_only_stub.js:112",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/gap_limited_mobile_app_for_field_case_managers.js:112",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/gap_no_automated_eligibility_determination_engine.js:112",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/gap_no_calendar_integration_despite_appointments.js:112",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/gap_no_ferpa_hipaa_compliance_tracking_module.js:112",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/gap_no_webhooks.js:112",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/gap_servicesdirectory_lacks_ai_matching_eligibility_scoring.js:112",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/goalPredict.js:94",
+        "route": "/goal-predict/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/riskEscalate.js:94",
+        "route": "/risk-escalate/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/serviceMatch.js:94",
+        "route": "/service-match/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/workloadBalance.js:94",
+        "route": "/workload-balance/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/server.js:65",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "backend/src/server.js:65",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPatentResearchFiling",
+        "path": "server/src/index.js:66",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "backend/routes/pii.js:25",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "backend/server.js:31",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
       },
       {
         "kind": "api",
@@ -5659,163 +6179,37 @@
       {
         "kind": "api",
         "sourceProject": "AIConsumerComplaintResolutionAgent",
-        "path": "backend/server.js:25",
+        "path": "backend/server.js:27",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "api",
         "sourceProject": "AIPublicRecordsSearchAgent",
-        "path": "backend/server.js:29",
+        "path": "backend/server.js:33",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicRecordsSearchAgent",
+        "path": "backend/server.js:42",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "api",
         "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/server.js:64",
+        "path": "backend/server.js:45",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "api",
         "sourceProject": "AIeDiscoverySystem",
-        "path": "backend/server.js:101",
+        "path": "backend/server.js:25",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/earlyIntervene.js:94",
-        "route": "/early-intervene/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/gap_beneficiaries_goals_referrals_lack_ai_endpoints_for_risk_pre.js:112",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/gap_communications_lacks_generate_communication_plan.js:112",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/gap_limited_integration_with_social_service_databases_only_stub.js:112",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/gap_limited_mobile_app_for_field_case_managers.js:112",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/gap_no_automated_eligibility_determination_engine.js:112",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/gap_no_calendar_integration_despite_appointments.js:112",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/gap_no_ferpa_hipaa_compliance_tracking_module.js:112",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/gap_no_webhooks.js:112",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/gap_servicesdirectory_lacks_ai_matching_eligibility_scoring.js:112",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/goalPredict.js:94",
-        "route": "/goal-predict/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/riskEscalate.js:94",
-        "route": "/risk-escalate/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/serviceMatch.js:94",
-        "route": "/service-match/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/routes/workloadBalance.js:94",
-        "route": "/workload-balance/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "backend/server.js:63",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIImmigrationCaseManager",
-        "path": "backend/src/server.js:77",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPatentResearchFiling",
-        "path": "server/src/index.js:61",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/pii.js:25",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/server.js:30",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
       },
       {
         "kind": "api",
@@ -5932,7 +6326,7 @@
       {
         "kind": "api",
         "sourceProject": "AIDivorceFamilyLawNavigator",
-        "path": "server/index.js:97",
+        "path": "server/index.js:109",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/tenant-rights-advisor"
       },
@@ -6030,16 +6424,247 @@
       {
         "kind": "api",
         "sourceProject": "AIEstatePlanningDigitalLegacy",
-        "path": "backend/server.js:71",
+        "path": "backend/server.js:59",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/tenant-rights-advisor"
       },
       {
         "kind": "api",
         "sourceProject": "AITenantRightsAdvisor",
-        "path": "backend/server.js:33",
+        "path": "backend/server.js:43",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/dataMarketplace.js:10",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/dataProfiling.js:10",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_ai_auto_tagging_new_assets.js:90",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_ai_cost_hot_data_tier.js:90",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_ai_master_data_matching_dedup.js:90",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_ai_schema_evolution_recommendation_engine.js:90",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_automated_data_profiling_at_ingestion.js:90",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_data_product_marketplace_surface.js:90",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_data_quality_scorecards.js:90",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_live_data_warehouse_connector_snowflake.js:90",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_notifications_subsystem_beyond_webhooks.js:90",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/masterDataMgmt.js:10",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/piiStream.js:10",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/warehouseBridge.js:10",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/server.js:55",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGovernanceModelOps",
+        "path": "backend/server.js:35",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/coldChainAgent.js:92",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_0_mounted_chat_style_ai_endpoints_despite_ainew_js.js:132",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_ai_auto_generated_deviation_reports_for_regulat.js:132",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_ai_excursion_classification_real_vs_sensor_glit.js:132",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_ai_predictive_route_risk_scoring.js:132",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_ai_spoilage_forecast_at_lot_level.js:132",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_customer_lot_recall_workflow.js:132",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_direct_carrier_edi_api_for_eta_updates.js:132",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_live_iot_sensor_stream_ingestion_layer_only_sto.js:132",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_multi_product_pharma_vs_food_regulatory_templat.js:132",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_notification_routes_exist_but_no_sms_push_delivery.js:132",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gdpCfrRag.js:92",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/sensorAnomalyStream.js:92",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/threePlPharmaWhiteLabel.js:92",
+        "route": "/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/server.js:83",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIESGSustainabilityReporter",
+        "path": "backend/server.js:42",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/server.js:154",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       },
       {
         "kind": "api",
@@ -6142,28 +6767,28 @@
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
-        "path": "backend/src/server.js:83",
+        "path": "backend/src/server.js:86",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
       {
         "kind": "api",
         "sourceProject": "AIPermitZoningCompliance",
-        "path": "backend/server.js:55",
+        "path": "backend/server.js:60",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
       {
         "kind": "api",
         "sourceProject": "AiRegulatoryCompliance",
-        "path": "backend/src/index.js:58",
+        "path": "backend/src/index.js:72",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
       {
         "kind": "page",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "main.py:110",
+        "path": "main.py:96",
         "route": "/health",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -6271,272 +6896,6 @@
         "path": "routers/regulation_feed.py:20",
         "route": "/health",
         "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/coldChainAgent.js:92",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_0_mounted_chat_style_ai_endpoints_despite_ainew_js.js:132",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_ai_auto_generated_deviation_reports_for_regulat.js:132",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_ai_excursion_classification_real_vs_sensor_glit.js:132",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_ai_predictive_route_risk_scoring.js:132",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_ai_spoilage_forecast_at_lot_level.js:132",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_customer_lot_recall_workflow.js:132",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_direct_carrier_edi_api_for_eta_updates.js:132",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_live_iot_sensor_stream_ingestion_layer_only_sto.js:132",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_multi_product_pharma_vs_food_regulatory_templat.js:132",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_notification_routes_exist_but_no_sms_push_delivery.js:132",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gdpCfrRag.js:92",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/sensorAnomalyStream.js:92",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/threePlPharmaWhiteLabel.js:92",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/server.js:80",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIESGSustainabilityReporter",
-        "path": "backend/server.js:60",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIGDPRDataMappingPrivacyManager",
-        "path": "backend/server.js:153",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/dataMarketplace.js:10",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/dataProfiling.js:10",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_ai_auto_tagging_new_assets.js:90",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_ai_cost_hot_data_tier.js:90",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_ai_master_data_matching_dedup.js:90",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_ai_schema_evolution_recommendation_engine.js:90",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_automated_data_profiling_at_ingestion.js:90",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_data_product_marketplace_surface.js:90",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_data_quality_scorecards.js:90",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_live_data_warehouse_connector_snowflake.js:90",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_notifications_subsystem_beyond_webhooks.js:90",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/masterDataMgmt.js:10",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/piiStream.js:10",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/warehouseBridge.js:10",
-        "route": "/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/server.js:52",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIGovernanceModelOps",
-        "path": "backend/server.js:35",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMandADealRoom",
-        "path": "backend/server.js:31",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/due-diligence-assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIProposalSOWGenerator",
-        "path": "backend/server.js:1758",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/due-diligence-assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "government_contracts",
-        "path": "react_api/server.js:48",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/due-diligence-assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/index.js:57",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ai_procurement_management",
-        "path": "backend/src/index.ts:55",
-        "route": "/api/health",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
       },
       {
         "kind": "api",
@@ -6723,16 +7082,58 @@
       {
         "kind": "api",
         "sourceProject": "AISportsAgentContractAnalyzer",
-        "path": "backend/src/server.js:52",
+        "path": "backend/src/server.js:54",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIStrategicSourcingNegotiation",
-        "path": "backend/server.js:93",
+        "path": "backend/server.js:44",
         "route": "/api/health",
         "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDueDiligenceAssistant",
+        "path": "backend/server.js:2707",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMandADealRoom",
+        "path": "backend/server.js:36",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIProposalSOWGenerator",
+        "path": "backend/server.js:1761",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "government_contracts",
+        "path": "react_api/server.js:59",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/index.js:57",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai_procurement_management",
+        "path": "backend/src/index.ts:50",
+        "route": "/api/health",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
       }
     ]
   },
@@ -6789,25 +7190,36 @@
   {
     "name": "Integrations",
     "canonicalKey": "integration",
-    "aliases": [],
+    "aliases": [
+      "Integrations Page"
+    ],
     "kinds": [
       "api",
       "page"
     ],
     "routes": [
+      "/:id/integrations",
       "/Integrations",
+      "/IntegrationsPage",
       "/api/integrations",
       "/integrations"
     ],
     "sourceProjects": [
       "AIBailBondRiskAssessor",
       "AIContractLifecycleManager",
+      "AIGDPRDataMappingPrivacyManager",
       "AIPermitZoningCompliance",
+      "AIRefugeeAsylumCaseManager",
+      "AISportsAgentContractAnalyzer",
+      "AIStrategicSourcingNegotiation",
+      "AiRegulatoryCompliance",
       "legalForms"
     ],
     "consolidatedFromApps": [
       "legal-compliance-risk/contract-negotiation-assistant",
       "legal-compliance-risk/firmflow-ai-merged",
+      "legal-compliance-risk/gdpr-data-mapping-privacy-manager",
+      "legal-compliance-risk/immigration-case-manager",
       "legal-compliance-risk/regulatory-compliance",
       "legal-compliance-risk/tenant-rights-advisor"
     ],
@@ -6820,11 +7232,39 @@
         "originApp": "legal-compliance-risk/firmflow-ai-merged"
       },
       {
+        "kind": "api",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "backend/governance/router.js:174",
+        "route": "/:id/integrations",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
         "kind": "page",
         "sourceProject": "AIBailBondRiskAssessor",
         "path": "client/src/App.js:117",
         "route": "/integrations",
         "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBailBondRiskAssessor",
+        "path": "client/src/pages/IntegrationsPage.js",
+        "route": "/IntegrationsPage",
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/governance/router.js:126",
+        "route": "/:id/integrations",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/governance/router.js:156",
+        "route": "/:id/integrations",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
       },
       {
         "kind": "page",
@@ -6842,9 +7282,30 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/governance/router.js:175",
+        "route": "/:id/integrations",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIContractLifecycleManager",
         "path": "backend/routes/ops.js:200",
         "route": "/integrations",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISportsAgentContractAnalyzer",
+        "path": "backend/src/governance/router.js:175",
+        "route": "/:id/integrations",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIStrategicSourcingNegotiation",
+        "path": "backend/governance/router.js:175",
+        "route": "/:id/integrations",
         "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       }
     ]
@@ -7104,7 +7565,7 @@
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
-        "path": "backend/src/routes/aiNew.js:320",
+        "path": "backend/src/routes/aiNew.js:338",
         "route": "/license-renewal",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -7219,6 +7680,7 @@
     "routes": [
       "/api/auth/me",
       "/api/users/me",
+      "/auth/me",
       "/me",
       "/subscriptions/me"
     ],
@@ -7226,22 +7688,34 @@
       "AIAutomatedatagovernance",
       "AIBailBondRiskAssessor",
       "AICannabisCultivationCompliance",
+      "AIColdChainMonitoringCompliance",
+      "AIConsumerComplaintResolutionAgent",
       "AIContractLifecycleManager",
       "AIContractNegotiationAssistant",
       "AICourtReportingLegalTranscription",
       "AIDigitalcasemanager",
+      "AIDivorceFamilyLawNavigator",
       "AIESGSustainabilityReporter",
+      "AIEstatePlanningDigitalLegacy",
+      "AIExportControlSanctionsScreener",
       "AIGDPRDataMappingPrivacyManager",
       "AIGovernanceModelOps",
+      "AIImmigrationCaseManager",
       "AIMandADealRoom",
       "AINotaryDocumentVerification",
+      "AIPatentResearchFiling",
       "AIPermitZoningCompliance",
       "AIProposalSOWGenerator",
+      "AIPublicRecordsSearchAgent",
       "AIRefugeeAsylumCaseManager",
       "AISportsAgentContractAnalyzer",
       "AIStrategicSourcingNegotiation",
+      "AITenantRightsAdvisor",
+      "AITrademarkBrandProtectionMonitor",
+      "AIVendorRiskPerformanceScorer",
       "AIeDiscoverySystem",
       "AiRegulatoryCompliance",
+      "ai_procurement_management",
       "ai_regulatory_compliance",
       "government_contracts",
       "legalForms"
@@ -7255,13 +7729,21 @@
       "legal-compliance-risk/immigration-case-manager",
       "legal-compliance-risk/public-records-search-agent",
       "legal-compliance-risk/regulatory-compliance",
-      "legal-compliance-risk/tenant-rights-advisor"
+      "legal-compliance-risk/tenant-rights-advisor",
+      "legal-compliance-risk/vendor-contract-risk-monitor"
     ],
     "evidence": [
       {
         "kind": "api",
         "sourceProject": "AICourtReportingLegalTranscription",
         "path": "server/routes/auth.js:76",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINotaryDocumentVerification",
+        "path": "backend/routes/auth.js:85",
         "route": "/me",
         "originApp": "legal-compliance-risk/firmflow-ai-merged"
       },
@@ -7282,16 +7764,16 @@
       {
         "kind": "page",
         "sourceProject": "legalForms",
-        "path": "routes/additional-features.js:274",
-        "route": "/api/users/me",
+        "path": "lib/governedApp.js:75",
+        "route": "/api/auth/me",
         "originApp": "legal-compliance-risk/firmflow-ai-merged"
       },
       {
-        "kind": "api",
-        "sourceProject": "AIeDiscoverySystem",
-        "path": "backend/routes/auth.js:103",
-        "route": "/me",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
+        "kind": "page",
+        "sourceProject": "legalForms",
+        "path": "routes/additional-features.js:274",
+        "route": "/api/users/me",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
       },
       {
         "kind": "api",
@@ -7302,10 +7784,52 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/auth.js:65",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "backend/src/routes/auth.js:51",
         "route": "/me",
         "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPatentResearchFiling",
+        "path": "server/src/routes/auth.js:47",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "backend/routes/auth.js:49",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConsumerComplaintResolutionAgent",
+        "path": "backend/routes/auth.js:51",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicRecordsSearchAgent",
+        "path": "backend/routes/auth.js:44",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/auth.js:85",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIeDiscoverySystem",
+        "path": "backend/routes/auth.js:106",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "api",
@@ -7316,43 +7840,64 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AICannabisCultivationCompliance",
-        "path": "backend/src/routes/auth.js:79",
+        "sourceProject": "AIDivorceFamilyLawNavigator",
+        "path": "server/routes/auth.js:44",
         "route": "/me",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPermitZoningCompliance",
-        "path": "backend/routes/auth.js:37",
+        "sourceProject": "AIEstatePlanningDigitalLegacy",
+        "path": "backend/routes/auth.js:52",
         "route": "/me",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
       },
       {
         "kind": "api",
-        "sourceProject": "AiRegulatoryCompliance",
-        "path": "backend/src/routes/auth.js:117",
+        "sourceProject": "AITenantRightsAdvisor",
+        "path": "backend/routes/auth.js:61",
         "route": "/me",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
       },
       {
-        "kind": "page",
-        "sourceProject": "ai_regulatory_compliance",
-        "path": "auth.py:101",
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/auth.js:92",
         "route": "/me",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
+        "originApp": "legal-compliance-risk/automatedatagovernance"
       },
       {
-        "kind": "page",
-        "sourceProject": "ai_regulatory_compliance",
-        "path": "auth.py:106",
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/runtimeAcceptance.js:97",
+        "route": "/auth/me",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIExportControlSanctionsScreener",
+        "path": "server/routes/auth.js:22",
         "route": "/me",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGovernanceModelOps",
+        "path": "backend/routes/auth.js:44",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/auth.js:47",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       },
       {
         "kind": "api",
         "sourceProject": "AIESGSustainabilityReporter",
-        "path": "backend/routes/auth.js:154",
+        "path": "backend/routes/auth.js:147",
         "route": "/me",
         "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       },
@@ -7379,29 +7924,85 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/auth.js:91",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "backend/src/routes/auth.js:79",
         "route": "/me",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
+        "originApp": "legal-compliance-risk/regulatory-compliance"
       },
       {
         "kind": "api",
-        "sourceProject": "AIGovernanceModelOps",
-        "path": "backend/routes/auth.js:44",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/auth.js:37",
         "route": "/me",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/src/routes/auth.js:117",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/src/routes/users.js:46",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "auth.py:132",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "auth.py:137",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIContractLifecycleManager",
+        "path": "backend/routes/auth.js:20",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIContractNegotiationAssistant",
+        "path": "backend/src/routes/auth.js:49",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISportsAgentContractAnalyzer",
+        "path": "backend/src/routes/auth.js:209",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIStrategicSourcingNegotiation",
+        "path": "backend/routes/auth.js:65",
+        "route": "/me",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIMandADealRoom",
-        "path": "backend/routes/auth.js:67",
+        "path": "backend/routes/auth.js:46",
         "route": "/me",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "api",
         "sourceProject": "AIProposalSOWGenerator",
-        "path": "backend/server.js:252",
+        "path": "backend/server.js:253",
         "route": "/api/auth/me",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
@@ -7414,31 +8015,17 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIContractLifecycleManager",
-        "path": "backend/routes/auth.js:20",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/auth.js:51",
         "route": "/me",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
       },
       {
         "kind": "api",
-        "sourceProject": "AIContractNegotiationAssistant",
-        "path": "backend/src/routes/auth.js:76",
+        "sourceProject": "ai_procurement_management",
+        "path": "backend/src/routes/auth.ts:39",
         "route": "/me",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISportsAgentContractAnalyzer",
-        "path": "backend/src/routes/auth.js:225",
-        "route": "/me",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIStrategicSourcingNegotiation",
-        "path": "backend/routes/auth.js:64",
-        "route": "/me",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
       }
     ]
   },
@@ -7469,6 +8056,43 @@
     ]
   },
   {
+    "name": "Metrics",
+    "canonicalKey": "metric",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/api/metrics",
+      "/metrics"
+    ],
+    "sourceProjects": [
+      "ai_procurement_management",
+      "ai_regulatory_compliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance",
+      "legal-compliance-risk/vendor-contract-risk-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "main.py:114",
+        "route": "/metrics",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai_procurement_management",
+        "path": "backend/src/index.ts:55",
+        "route": "/api/metrics",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      }
+    ]
+  },
+  {
     "name": "Microbial Analyzer",
     "canonicalKey": "analyzer microbial",
     "aliases": [],
@@ -7492,7 +8116,7 @@
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
-        "path": "backend/src/routes/aiNew.js:367",
+        "path": "backend/src/routes/aiNew.js:385",
         "route": "/microbial-analyzer",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -7543,17 +8167,17 @@
     "evidence": [
       {
         "kind": "page",
-        "sourceProject": "AiRegulatoryCompliance",
-        "path": "frontend/src/App.js:164",
-        "route": "/missing-features",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIExportControlSanctionsScreener",
         "path": "client/src/App.js:866",
         "route": "/missing-features",
         "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/App.js:164",
+        "route": "/missing-features",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
       },
       {
         "kind": "page",
@@ -7587,17 +8211,17 @@
     "evidence": [
       {
         "kind": "page",
-        "sourceProject": "AiRegulatoryCompliance",
-        "path": "frontend/src/pages/MissingFeaturesHub.jsx",
-        "route": "/MissingFeaturesHub",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIExportControlSanctionsScreener",
         "path": "client/src/pages/MissingFeaturesHub.jsx",
         "route": "/MissingFeaturesHub",
         "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/pages/MissingFeaturesHub.jsx",
+        "route": "/MissingFeaturesHub",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
       },
       {
         "kind": "page",
@@ -7628,7 +8252,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPermitZoningCompliance",
-        "path": "backend/routes/integrations.js:56",
+        "path": "backend/routes/integrations.js:30",
         "route": "/gis/neighborhood-impact",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       }
@@ -7818,7 +8442,7 @@
   },
   {
     "name": "Notification Routes Exist But No Sms Push Delivery Page",
-    "canonicalKey": "but delivery exist no notification push routes sms",
+    "canonicalKey": "but delivery exist no notification push route sms",
     "aliases": [],
     "kinds": [
       "page"
@@ -7837,17 +8461,17 @@
     "evidence": [
       {
         "kind": "page",
-        "sourceProject": "AICannabisCultivationCompliance",
-        "path": "frontend/src/pages/NotificationRoutesExistButNoSmsPushDeliveryPage.jsx",
-        "route": "/NotificationRoutesExistButNoSmsPushDeliveryPage",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIColdChainMonitoringCompliance",
         "path": "frontend/src/pages/NotificationRoutesExistButNoSmsPushDeliveryPage.jsx",
         "route": "/NotificationRoutesExistButNoSmsPushDeliveryPage",
         "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/NotificationRoutesExistButNoSmsPushDeliveryPage.jsx",
+        "route": "/NotificationRoutesExistButNoSmsPushDeliveryPage",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
       }
     ]
   },
@@ -7894,8 +8518,7 @@
       "AITrademarkBrandProtectionMonitor",
       "AIeDiscoverySystem",
       "AiRegulatoryCompliance",
-      "ai_regulatory_compliance",
-      "smallLawFirm"
+      "ai_regulatory_compliance"
     ],
     "consolidatedFromApps": [
       "legal-compliance-risk/automatedatagovernance",
@@ -7922,41 +8545,6 @@
         "path": "frontend/src/App.jsx:70",
         "route": "/codex/operations",
         "originApp": "legal-compliance-risk/firmflow-ai-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "smallLawFirm",
-        "path": "src/app/codex/operations/page.tsx",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/firmflow-ai-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIConsumerComplaintResolutionAgent",
-        "path": "frontend/src/App.jsx:89",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPublicRecordsSearchAgent",
-        "path": "frontend/src/App.js:85",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "frontend/src/App.jsx:58",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIeDiscoverySystem",
-        "path": "frontend/src/App.jsx:41",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "page",
@@ -7988,6 +8576,34 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIConsumerComplaintResolutionAgent",
+        "path": "frontend/src/App.jsx:79",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPublicRecordsSearchAgent",
+        "path": "frontend/src/App.js:85",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "frontend/src/App.jsx:58",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIeDiscoverySystem",
+        "path": "frontend/src/App.jsx:41",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIBailBondRiskAssessor",
         "path": "client/src/App.js:104",
         "route": "/codex/operations",
@@ -8013,6 +8629,41 @@
         "path": "frontend/src/App.jsx:57",
         "route": "/codex/operations",
         "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "frontend/src/App.jsx:425",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIExportControlSanctionsScreener",
+        "path": "client/src/App.js:140",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGovernanceModelOps",
+        "path": "frontend/src/App.js:84",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "frontend/src/App.jsx:47",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIESGSustainabilityReporter",
+        "path": "frontend/src/App.js:62",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       },
       {
         "kind": "navigation",
@@ -8059,65 +8710,9 @@
       {
         "kind": "page",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/App.tsx:41",
+        "path": "frontend/src/App.tsx:48",
         "route": "/codex/operations",
         "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "frontend/src/App.jsx:47",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIESGSustainabilityReporter",
-        "path": "frontend/src/App.js:62",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "frontend/src/App.js:425",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIExportControlSanctionsScreener",
-        "path": "client/src/App.js:140",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIGovernanceModelOps",
-        "path": "frontend/src/App.js:84",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDueDiligenceAssistant",
-        "path": "frontend/src/App.js:74",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/due-diligence-assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMandADealRoom",
-        "path": "frontend/src/App.js:100",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/due-diligence-assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProposalSOWGenerator",
-        "path": "frontend/src/App.js:4581",
-        "route": "/codex/operations",
-        "originApp": "legal-compliance-risk/due-diligence-assistant"
       },
       {
         "kind": "page",
@@ -8146,6 +8741,27 @@
         "path": "frontend/src/App.js:105",
         "route": "/codex/operations",
         "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDueDiligenceAssistant",
+        "path": "frontend/src/App.js:74",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMandADealRoom",
+        "path": "frontend/src/App.js:100",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProposalSOWGenerator",
+        "path": "frontend/src/App.js:4581",
+        "route": "/codex/operations",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
       }
     ]
   },
@@ -8200,14 +8816,14 @@
       {
         "kind": "api",
         "sourceProject": "AIPublicRecordsSearchAgent",
-        "path": "backend/routes/ai.js:153",
+        "path": "backend/routes/ai.js:150",
         "route": "/analyze/permit",
         "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "api",
         "sourceProject": "AIPermitZoningCompliance",
-        "path": "backend/routes/integrations.js:100",
+        "path": "backend/routes/integrations.js:74",
         "route": "/public-portal/permits",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       }
@@ -8237,7 +8853,7 @@
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
-        "path": "backend/src/routes/aiNew.js:233",
+        "path": "backend/src/routes/aiNew.js:251",
         "route": "/pest-detection",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -8324,6 +8940,196 @@
     ]
   },
   {
+    "name": "Policies",
+    "canonicalKey": "policy",
+    "aliases": [
+      "Policies Page",
+      "Policy"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/Policies",
+      "/PoliciesPage",
+      "/ai/policy",
+      "/policies",
+      "/policy"
+    ],
+    "sourceProjects": [
+      "AIExportControlSanctionsScreener",
+      "AIGovernanceModelOps",
+      "AIMandADealRoom",
+      "AINotaryDocumentVerification",
+      "AIProposalSOWGenerator",
+      "AIPublicRecordsSearchAgent",
+      "AITenantRightsAdvisor",
+      "AITrademarkBrandProtectionMonitor",
+      "AIeDiscoverySystem",
+      "AiRegulatoryCompliance",
+      "ai_regulatory_compliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/automatedatagovernance",
+      "legal-compliance-risk/due-diligence-assistant",
+      "legal-compliance-risk/firmflow-ai-merged",
+      "legal-compliance-risk/public-records-search-agent",
+      "legal-compliance-risk/regulatory-compliance",
+      "legal-compliance-risk/tenant-rights-advisor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINotaryDocumentVerification",
+        "path": "backend/governance/routerFactory.js:52",
+        "route": "/policy",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicRecordsSearchAgent",
+        "path": "backend/governance/routerFactory.js:52",
+        "route": "/policy",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/governance/routerFactory.js:68",
+        "route": "/policy",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIeDiscoverySystem",
+        "path": "backend/governance/routerFactory.js:68",
+        "route": "/policy",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITenantRightsAdvisor",
+        "path": "backend/governance/routerFactory.js:68",
+        "route": "/policy",
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIExportControlSanctionsScreener",
+        "path": "server/routes/extensions.js:299",
+        "route": "/policies",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIExportControlSanctionsScreener",
+        "path": "server/routes/extensions.js:306",
+        "route": "/policies",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIExportControlSanctionsScreener",
+        "path": "server/governance/routerFactory.js:41",
+        "route": "/policy",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIGovernanceModelOps",
+        "path": "frontend/src/components/Sidebar.js:17",
+        "route": "",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGovernanceModelOps",
+        "path": "frontend/src/App.js:93",
+        "route": "/policies",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGovernanceModelOps",
+        "path": "frontend/src/components/Dashboard.js:12",
+        "route": "/policies",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGovernanceModelOps",
+        "path": "frontend/src/components/Sidebar.js:17",
+        "route": "/policies",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGovernanceModelOps",
+        "path": "frontend/src/pages/PoliciesPage.js",
+        "route": "/PoliciesPage",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/App.js:112",
+        "route": "/policies",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/pages/Dashboard.js:107",
+        "route": "/policies",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/pages/Policies.js",
+        "route": "/Policies",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "routers/governance.py:123",
+        "route": "/policies",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "routers/governance.py:141",
+        "route": "/policies",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "frontend/src/App.tsx:58",
+        "route": "/ai/policy",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMandADealRoom",
+        "path": "backend/governance/routerFactory.js:52",
+        "route": "/policy",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIProposalSOWGenerator",
+        "path": "backend/governance/routerFactory.js:52",
+        "route": "/policy",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      }
+    ]
+  },
+  {
     "name": "Policy Conflict Detector",
     "canonicalKey": "conflict detector policy",
     "aliases": [],
@@ -8361,6 +9167,32 @@
         "sourceProject": "AiRegulatoryCompliance",
         "path": "frontend/src/pages/PolicyConflictDetector.js",
         "route": "/PolicyConflictDetector",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "Policy Id",
+    "canonicalKey": "id policy",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/policies/{policy_id}"
+    ],
+    "sourceProjects": [
+      "ai_regulatory_compliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "routers/governance.py:147",
+        "route": "/policies/{policy_id}",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       }
     ]
@@ -8460,7 +9292,7 @@
   },
   {
     "name": "Rag Over Each State S Cannabis Regulations With Up Page",
-    "canonicalKey": "cannabis each over rag regulations s state up with",
+    "canonicalKey": "cannabis each over rag regulation s state up with",
     "aliases": [],
     "kinds": [
       "page"
@@ -8507,6 +9339,43 @@
         "path": "routers/ai.py:676",
         "route": "/readiness-simulator",
         "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "Ready",
+    "canonicalKey": "ready",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/api/ready",
+      "/ready"
+    ],
+    "sourceProjects": [
+      "ai_procurement_management",
+      "ai_regulatory_compliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance",
+      "legal-compliance-risk/vendor-contract-risk-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "main.py:101",
+        "route": "/ready",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai_procurement_management",
+        "path": "backend/src/index.ts:51",
+        "route": "/api/ready",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
       }
     ]
   },
@@ -8669,7 +9538,7 @@
       {
         "kind": "page",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/App.tsx:45",
+        "path": "frontend/src/App.tsx:50",
         "route": "/regulations",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -8707,8 +9576,15 @@
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "AIESGSustainabilityReporter",
+        "path": "backend/routes/aiExtensions.js:190",
+        "route": "/regulatory-tracker",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
-        "path": "backend/src/routes/aiNew.js:104",
+        "path": "backend/src/routes/aiNew.js:122",
         "route": "/regulatory-tracker",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -8732,13 +9608,6 @@
         "path": "frontend/src/pages/RegulatoryTracker.jsx",
         "route": "/RegulatoryTracker",
         "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIESGSustainabilityReporter",
-        "path": "backend/routes/aiExtensions.js:189",
-        "route": "/regulatory-tracker",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       }
     ]
   },
@@ -8833,6 +9702,102 @@
         "path": "backend/src/routes/evidenceExceptionTracker.js:22",
         "route": "/resolve-plan",
         "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "Retention",
+    "canonicalKey": "retention",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/policies/{policy_id}/retention"
+    ],
+    "sourceProjects": [
+      "ai_regulatory_compliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "routers/governance.py:222",
+        "route": "/policies/{policy_id}/retention",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "Retire",
+    "canonicalKey": "retire",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/retire",
+      "/cases/:id/retire"
+    ],
+    "sourceProjects": [
+      "AIGovernanceModelOps",
+      "AIPermitZoningCompliance",
+      "AIRefugeeAsylumCaseManager",
+      "AISportsAgentContractAnalyzer",
+      "AIStrategicSourcingNegotiation",
+      "AiRegulatoryCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/automatedatagovernance",
+      "legal-compliance-risk/contract-negotiation-assistant",
+      "legal-compliance-risk/immigration-case-manager",
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "backend/governance/router.js:153",
+        "route": "/:id/retire",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGovernanceModelOps",
+        "path": "backend/routes/governanceWorkflow.js:76",
+        "route": "/cases/:id/retire",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/governance/router.js:135",
+        "route": "/:id/retire",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/governance/router.js:154",
+        "route": "/:id/retire",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISportsAgentContractAnalyzer",
+        "path": "backend/src/governance/router.js:154",
+        "route": "/:id/retire",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIStrategicSourcingNegotiation",
+        "path": "backend/governance/router.js:154",
+        "route": "/:id/retire",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       }
     ]
   },
@@ -9112,76 +10077,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/gapNoAiForAutomatedCeaseAndDesistDraftingBeyondStub.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/gapNoAiForCounterfeitImageAnalysisComputerVision.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/gapNoDirectIntegrationWithUsptoWipoDatabasesOnly.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/gapNoGeographicJurisdictionFiltering.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/gapNoIntegrationWithLawFirmsForEnforcementWorkflow.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/gapNoMultiLanguageSupport.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/gapNoNotificationsRoutingBeyondAlertsJs.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/gapNoPredictiveEnforcementOutcomeModel.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/gapNoWebhooksForRealTimeAlertDelivery.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIeDiscoverySystem",
-        "path": "backend/routes/agenticDiscovery.js:10",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIPatentResearchFiling",
         "path": "server/src/routes/customFeat01_AgenticPatentProsecution.js:75",
         "route": "/run",
@@ -9305,6 +10200,76 @@
         "path": "server/src/routes/gapFeat_no_webhooks_for_uspto_docket_updates.js:69",
         "route": "/run",
         "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/gapNoAiForAutomatedCeaseAndDesistDraftingBeyondStub.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/gapNoAiForCounterfeitImageAnalysisComputerVision.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/gapNoDirectIntegrationWithUsptoWipoDatabasesOnly.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/gapNoGeographicJurisdictionFiltering.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/gapNoIntegrationWithLawFirmsForEnforcementWorkflow.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/gapNoMultiLanguageSupport.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/gapNoNotificationsRoutingBeyondAlertsJs.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/gapNoPredictiveEnforcementOutcomeModel.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/gapNoWebhooksForRealTimeAlertDelivery.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIeDiscoverySystem",
+        "path": "backend/routes/agenticDiscovery.js:10",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "api",
@@ -9487,6 +10452,209 @@
         "path": "backend/routes/gapNoNotificationsOrRemindersForDeadlinesEG.js:55",
         "route": "/run",
         "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/dataMarketplace.js:15",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/dataProfiling.js:15",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/extensions.js:156",
+        "route": "/profile/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_ai_auto_tagging_new_assets.js:94",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_ai_cost_hot_data_tier.js:94",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_ai_master_data_matching_dedup.js:94",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_ai_schema_evolution_recommendation_engine.js:94",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_automated_data_profiling_at_ingestion.js:94",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_data_product_marketplace_surface.js:94",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_data_quality_scorecards.js:94",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_live_data_warehouse_connector_snowflake.js:94",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/gap_notifications_subsystem_beyond_webhooks.js:94",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/masterDataMgmt.js:15",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/piiStream.js:15",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/warehouseBridge.js:15",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/coldChainAgent.js:72",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_0_mounted_chat_style_ai_endpoints_despite_ainew_js.js:98",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_ai_auto_generated_deviation_reports_for_regulat.js:98",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_ai_excursion_classification_real_vs_sensor_glit.js:98",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_ai_predictive_route_risk_scoring.js:98",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_ai_spoilage_forecast_at_lot_level.js:98",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_customer_lot_recall_workflow.js:98",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_direct_carrier_edi_api_for_eta_updates.js:98",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_live_iot_sensor_stream_ingestion_layer_only_sto.js:98",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_no_multi_product_pharma_vs_food_regulatory_templat.js:98",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gap_notification_routes_exist_but_no_sms_push_delivery.js:98",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/gdpCfrRag.js:72",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/sensorAnomalyStream.js:72",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/threePlPharmaWhiteLabel.js:72",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       },
       {
         "kind": "api",
@@ -9819,279 +10987,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/coldChainAgent.js:72",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_0_mounted_chat_style_ai_endpoints_despite_ainew_js.js:98",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_ai_auto_generated_deviation_reports_for_regulat.js:98",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_ai_excursion_classification_real_vs_sensor_glit.js:98",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_ai_predictive_route_risk_scoring.js:98",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_ai_spoilage_forecast_at_lot_level.js:98",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_customer_lot_recall_workflow.js:98",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_direct_carrier_edi_api_for_eta_updates.js:98",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_live_iot_sensor_stream_ingestion_layer_only_sto.js:98",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_no_multi_product_pharma_vs_food_regulatory_templat.js:98",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gap_notification_routes_exist_but_no_sms_push_delivery.js:98",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/gdpCfrRag.js:72",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/sensorAnomalyStream.js:72",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/threePlPharmaWhiteLabel.js:72",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/dataMarketplace.js:15",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/dataProfiling.js:15",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/extensions.js:156",
-        "route": "/profile/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_ai_auto_tagging_new_assets.js:94",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_ai_cost_hot_data_tier.js:94",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_ai_master_data_matching_dedup.js:94",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_ai_schema_evolution_recommendation_engine.js:94",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_automated_data_profiling_at_ingestion.js:94",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_data_product_marketplace_surface.js:94",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_data_quality_scorecards.js:94",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_live_data_warehouse_connector_snowflake.js:94",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/gap_notifications_subsystem_beyond_webhooks.js:94",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/masterDataMgmt.js:15",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/piiStream.js:15",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatedatagovernance",
-        "path": "backend/routes/warehouseBridge.js:15",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/routes/agenticDiligence.js:38",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/due-diligence-assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/gapNoESignatureWorkflowForContractObligations.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/gapNoEsgControversyNewsScannerAi.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/gapNoIntegrationWithDunBradstreetOrFinancialData.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/gapNoPredictiveBankruptcyScoring.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/gapNoSupplierOnboardingWorkflowWithAutomatedDocumentCollection.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/gapNoSupplierPortalForSelfServiceComplianceUpdates.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/gapNoSupplyChainNetworkNTierRiskAnalysisAi.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/gapNoThirdPartyRiskAggregationFeedsPciCertifications.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/gapNoWebhooksForAlertDelivery.js:55",
-        "route": "/run",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIContractLifecycleManager",
         "path": "backend/routes/ops.js:422",
         "route": "/jobs/run",
@@ -10236,6 +11131,76 @@
         "path": "backend/routes/gapNoWebhooksForExternalSystemEvents.js:55",
         "route": "/run",
         "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDueDiligenceAssistant",
+        "path": "backend/routes/agenticDiligence.js:38",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/gapNoESignatureWorkflowForContractObligations.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/gapNoEsgControversyNewsScannerAi.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/gapNoIntegrationWithDunBradstreetOrFinancialData.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/gapNoPredictiveBankruptcyScoring.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/gapNoSupplierOnboardingWorkflowWithAutomatedDocumentCollection.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/gapNoSupplierPortalForSelfServiceComplianceUpdates.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/gapNoSupplyChainNetworkNTierRiskAnalysisAi.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/gapNoThirdPartyRiskAggregationFeedsPciCertifications.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/gapNoWebhooksForAlertDelivery.js:55",
+        "route": "/run",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
       }
     ]
   },
@@ -10339,7 +11304,7 @@
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
-        "path": "backend/src/routes/aiNew.js:279",
+        "path": "backend/src/routes/aiNew.js:297",
         "route": "/seed-supplier-audit",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -10457,6 +11422,57 @@
     ]
   },
   {
+    "name": "Sources",
+    "canonicalKey": "source",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/iot/sources",
+      "/sources"
+    ],
+    "sourceProjects": [
+      "AIColdChainMonitoringCompliance",
+      "ai_regulatory_compliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/gdpr-data-mapping-privacy-manager",
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/predictive.js:144",
+        "route": "/iot/sources",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/predictive.js:156",
+        "route": "/iot/sources",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "routers/governance.py:117",
+        "route": "/sources",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "routers/governance.py:92",
+        "route": "/sources",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
     "name": "Strain Library",
     "canonicalKey": "library strain",
     "aliases": [],
@@ -10569,11 +11585,13 @@
       "/api/reports/summary",
       "/dashboard/summary",
       "/stats/summary",
-      "/summary"
+      "/summary",
+      "/workspaces/:workspaceId/matters/:matterId/summary"
     ],
     "sourceProjects": [
       "AIColdChainMonitoringCompliance",
       "AIContractNegotiationAssistant",
+      "AIDivorceFamilyLawNavigator",
       "AIGDPRDataMappingPrivacyManager",
       "AIVendorRiskPerformanceScorer",
       "AiRegulatoryCompliance",
@@ -10584,6 +11602,7 @@
       "legal-compliance-risk/firmflow-ai-merged",
       "legal-compliance-risk/gdpr-data-mapping-privacy-manager",
       "legal-compliance-risk/regulatory-compliance",
+      "legal-compliance-risk/tenant-rights-advisor",
       "legal-compliance-risk/vendor-contract-risk-monitor"
     ],
     "evidence": [
@@ -10597,9 +11616,30 @@
       {
         "kind": "page",
         "sourceProject": "legalForms",
-        "path": "server.js:2574",
+        "path": "server.js:2575",
         "route": "/api/reports/summary",
         "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDivorceFamilyLawNavigator",
+        "path": "server/routes/navigationWorkflow.js:160",
+        "route": "/workspaces/:workspaceId/matters/:matterId/summary",
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "backend/routes/reports.js:327",
+        "route": "/summary",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/routes/llmUsageRegistry.js:115",
+        "route": "/summary",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       },
       {
         "kind": "api",
@@ -10701,17 +11741,10 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "backend/routes/reports.js:327",
-        "route": "/summary",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIGDPRDataMappingPrivacyManager",
-        "path": "backend/routes/llmUsageRegistry.js:115",
-        "route": "/summary",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+        "sourceProject": "AIContractNegotiationAssistant",
+        "path": "backend/src/routes/analytics.js:78",
+        "route": "/dashboard/summary",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       },
       {
         "kind": "api",
@@ -10719,13 +11752,6 @@
         "path": "backend/src/routes/spend.js:7",
         "route": "/summary",
         "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIContractNegotiationAssistant",
-        "path": "backend/src/routes/analytics.js:78",
-        "route": "/dashboard/summary",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       }
     ]
   },
@@ -10776,7 +11802,7 @@
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
-        "path": "backend/src/routes/aiNew.js:415",
+        "path": "backend/src/routes/aiNew.js:433",
         "route": "/supply-chain-audit",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -10879,6 +11905,166 @@
     ]
   },
   {
+    "name": "Transition",
+    "canonicalKey": "transition",
+    "aliases": [
+      "Transitions"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/:id/transition",
+      "/cases/:id/transition",
+      "/cases/:id/transitions",
+      "/policies/{policy_id}/transitions"
+    ],
+    "sourceProjects": [
+      "AIAutomatedatagovernance",
+      "AICannabisCultivationCompliance",
+      "AIDigitalcasemanager",
+      "AIESGSustainabilityReporter",
+      "AIExportControlSanctionsScreener",
+      "AIGovernanceModelOps",
+      "AIImmigrationCaseManager",
+      "AIMandADealRoom",
+      "AINotaryDocumentVerification",
+      "AIProposalSOWGenerator",
+      "AIPublicRecordsSearchAgent",
+      "AIStrategicSourcingNegotiation",
+      "AITenantRightsAdvisor",
+      "AITrademarkBrandProtectionMonitor",
+      "AIeDiscoverySystem",
+      "ai_regulatory_compliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/automatedatagovernance",
+      "legal-compliance-risk/contract-negotiation-assistant",
+      "legal-compliance-risk/due-diligence-assistant",
+      "legal-compliance-risk/firmflow-ai-merged",
+      "legal-compliance-risk/gdpr-data-mapping-privacy-manager",
+      "legal-compliance-risk/immigration-case-manager",
+      "legal-compliance-risk/public-records-search-agent",
+      "legal-compliance-risk/regulatory-compliance",
+      "legal-compliance-risk/tenant-rights-advisor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINotaryDocumentVerification",
+        "path": "backend/governance/routerFactory.js:225",
+        "route": "/cases/:id/transitions",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "backend/routes/matters.js:6",
+        "route": "/:id/transition",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "backend/src/routes/governedMatters.js:7",
+        "route": "/:id/transition",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicRecordsSearchAgent",
+        "path": "backend/governance/routerFactory.js:225",
+        "route": "/cases/:id/transitions",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/governance/routerFactory.js:251",
+        "route": "/cases/:id/transitions",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIeDiscoverySystem",
+        "path": "backend/governance/routerFactory.js:251",
+        "route": "/cases/:id/transitions",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITenantRightsAdvisor",
+        "path": "backend/governance/routerFactory.js:251",
+        "route": "/cases/:id/transitions",
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatedatagovernance",
+        "path": "backend/routes/governanceCases.js:21",
+        "route": "/:id/transition",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIExportControlSanctionsScreener",
+        "path": "server/governance/routerFactory.js:128",
+        "route": "/cases/:id/transitions",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGovernanceModelOps",
+        "path": "backend/routes/approvals.js:100",
+        "route": "/:id/transition",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIESGSustainabilityReporter",
+        "path": "backend/routes/disclosureWorkflow.js:61",
+        "route": "/cases/:id/transition",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "backend/src/routes/cultivationLifecycle.js:5",
+        "route": "/:id/transition",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "routers/governance.py:199",
+        "route": "/policies/{policy_id}/transitions",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIStrategicSourcingNegotiation",
+        "path": "backend/routes/approvals.js:69",
+        "route": "/:id/transition",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMandADealRoom",
+        "path": "backend/governance/routerFactory.js:225",
+        "route": "/cases/:id/transitions",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIProposalSOWGenerator",
+        "path": "backend/governance/routerFactory.js:225",
+        "route": "/cases/:id/transitions",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      }
+    ]
+  },
+  {
     "name": "Trigger",
     "canonicalKey": "trigger",
     "aliases": [],
@@ -10901,6 +12087,181 @@
         "path": "backend/src/routes/webhookDelivery.js:75",
         "route": "/trigger",
         "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "Users",
+    "canonicalKey": "user",
+    "aliases": [
+      "User",
+      "User Management",
+      "Users Page"
+    ],
+    "kinds": [
+      "api",
+      "model",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/UserManagement",
+      "/Users",
+      "/UsersPage",
+      "/api/users",
+      "/stakeholder-portal/users",
+      "/users"
+    ],
+    "sourceProjects": [
+      "AIBailBondRiskAssessor",
+      "AIColdChainMonitoringCompliance",
+      "AIDueDiligenceAssistant",
+      "AIESGSustainabilityReporter",
+      "AIMandADealRoom",
+      "AIPublicRecordsSearchAgent",
+      "AIRefugeeAsylumCaseManager",
+      "AiRegulatoryCompliance",
+      "ai_procurement_management",
+      "ai_regulatory_compliance",
+      "government_contracts",
+      "legalForms"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/due-diligence-assistant",
+      "legal-compliance-risk/firmflow-ai-merged",
+      "legal-compliance-risk/gdpr-data-mapping-privacy-manager",
+      "legal-compliance-risk/immigration-case-manager",
+      "legal-compliance-risk/public-records-search-agent",
+      "legal-compliance-risk/regulatory-compliance",
+      "legal-compliance-risk/tenant-rights-advisor",
+      "legal-compliance-risk/vendor-contract-risk-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "legalForms",
+        "path": "ios/LegalPracticeAI/Models/User.swift",
+        "route": "",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "backend/routes/auth.js:60",
+        "route": "/users",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "AIPublicRecordsSearchAgent",
+        "path": "backend/models/User.js",
+        "route": "",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBailBondRiskAssessor",
+        "path": "client/src/pages/UserManagement.js",
+        "route": "/UserManagement",
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBailBondRiskAssessor",
+        "path": "client/src/App.js:114",
+        "route": "/users",
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "frontend/src/components/Sidebar.jsx:21",
+        "route": "",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "frontend/src/App.jsx:115",
+        "route": "/users",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "frontend/src/components/Sidebar.jsx:21",
+        "route": "/users",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIESGSustainabilityReporter",
+        "path": "backend/routes/aiExtensions.js:240",
+        "route": "/stakeholder-portal/users",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "frontend/src/pages/UsersPage.jsx",
+        "route": "/UsersPage",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/App.js:122",
+        "route": "/users",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/pages/Users.js",
+        "route": "/Users",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "auth.py:159",
+        "route": "/users",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "auth.py:181",
+        "route": "/users",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDueDiligenceAssistant",
+        "path": "backend/server.js:2614",
+        "route": "/api/users",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMandADealRoom",
+        "path": "backend/routes/auth.js:61",
+        "route": "/users",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "government_contracts",
+        "path": "react_api/models/User.js",
+        "route": "",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai_procurement_management",
+        "path": "backend/src/routes/auth.ts:43",
+        "route": "/users",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
       }
     ]
   },
@@ -10970,6 +12331,13 @@
     ],
     "evidence": [
       {
+        "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/routes/vendorSupplyChainVisibility.js:92",
+        "route": "/vendors",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
         "kind": "page",
         "sourceProject": "AiRegulatoryCompliance",
         "path": "frontend/src/App.js:115",
@@ -10989,13 +12357,6 @@
         "path": "frontend/src/pages/Vendors.js",
         "route": "/Vendors",
         "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIGDPRDataMappingPrivacyManager",
-        "path": "backend/routes/vendorSupplyChainVisibility.js:92",
-        "route": "/vendors",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       },
       {
         "kind": "api",
@@ -11042,7 +12403,7 @@
       {
         "kind": "api",
         "sourceProject": "AISportsAgentContractAnalyzer",
-        "path": "backend/src/routes/auth.js:169",
+        "path": "backend/src/routes/auth.js:153",
         "route": "/verify-email",
         "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       }
