@@ -11,12 +11,12 @@
     "AiRegulatoryCompliance",
     "ai_regulatory_compliance"
   ],
-  "featureCount": 226,
-  "candidateFeatureCount": 330,
-  "eliminatedSimilarFeatures": 104,
-  "evidenceCount": 1102,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "featureCount": 237,
+  "candidateFeatureCount": 338,
+  "eliminatedSimilarFeatures": 101,
+  "evidenceCount": 1153,
+  "aiPageCount": 23,
+  "sourceAIPageCount": 23,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 20,
     "seededRows": 300
   },
-  "visibleFeatureCount": 19,
+  "visibleFeatureCount": 39,
   "featureVisibilityMode": "seeded-or-ai"
 }

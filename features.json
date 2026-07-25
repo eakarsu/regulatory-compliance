@@ -26,6 +26,84 @@
     ]
   },
   {
+    "name": "AI Analyze",
+    "canonicalKey": "ai analyze",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-analyze",
+      "/compliance/:id"
+    ],
+    "sourceProjects": [
+      "AICannabisCultivationCompliance",
+      "AiRegulatoryCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/ComplianceDetail.jsx:1",
+        "route": "/compliance/:id",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "backend/src/routes/compliance.js:113",
+        "route": "/:id/ai-analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "backend/src/routes/labTests.js:238",
+        "route": "/:id/ai-analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/src/routes/compliance.js:157",
+        "route": "/:id/ai-analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/src/routes/documents.js:149",
+        "route": "/:id/ai-analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/src/routes/incidents.js:160",
+        "route": "/:id/ai-analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/src/routes/risks.js:165",
+        "route": "/:id/ai-analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "backend/src/routes/trainingTracker.js:135",
+        "route": "/:id/ai-analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
     "name": "AI Analyze Regulation",
     "canonicalKey": "ai analyze regulation",
     "aliases": [],
@@ -56,9 +134,11 @@
     "canonicalKey": "ai appeal",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/feature/:featureKey?tool=ai-appeal",
       "/permits/:id/ai-appeal"
     ],
     "sourceProjects": [
@@ -68,6 +148,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "frontend/src/pages/FeaturePage.js:1",
+        "route": "/feature/:featureKey?tool=ai-appeal",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPermitZoningCompliance",
@@ -472,10 +559,12 @@
     "canonicalKey": "ai optimize",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
-      "/:id/ai-optimize"
+      "/:id/ai-optimize",
+      "/grow-rooms/:id"
     ],
     "sourceProjects": [
       "AICannabisCultivationCompliance"
@@ -484,6 +573,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/GrowRoomDetail.jsx:1",
+        "route": "/grow-rooms/:id",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
@@ -498,10 +594,12 @@
     "canonicalKey": "ai predict",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
-      "/:id/ai-predict"
+      "/:id/ai-predict",
+      "/yield-predictions/:id"
     ],
     "sourceProjects": [
       "AICannabisCultivationCompliance",
@@ -511,6 +609,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/YieldPredictionDetail.jsx:1",
+        "route": "/yield-predictions/:id",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
@@ -681,22 +786,29 @@
     "canonicalKey": "ai review",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
       "/:id/ai-review",
+      "/feature/:featureKey?tool=ai-review",
       "/permits/:id/ai-review"
     ],
     "sourceProjects": [
-      "AIContractLifecycleManager",
       "AIPermitZoningCompliance",
       "AiRegulatoryCompliance"
     ],
     "consolidatedFromApps": [
-      "legal-compliance-risk/contract-negotiation-assistant",
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "frontend/src/pages/FeaturePage.js:1",
+        "route": "/feature/:featureKey?tool=ai-review",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPermitZoningCompliance",
@@ -710,13 +822,6 @@
         "path": "backend/src/routes/policies.js:162",
         "route": "/:id/ai-review",
         "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIContractLifecycleManager",
-        "path": "backend/routes/documents.js:162",
-        "route": "/:id/ai-review",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       }
     ]
   },
@@ -803,10 +908,12 @@
     "canonicalKey": "ai track",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
-      "/:id/ai-track"
+      "/:id/ai-track",
+      "/plants/:id"
     ],
     "sourceProjects": [
       "AICannabisCultivationCompliance"
@@ -815,6 +922,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/PlantDetail.jsx:1",
+        "route": "/plants/:id",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
@@ -995,6 +1109,149 @@
         "path": "backend/routes/watchlist.js:103",
         "route": "/:id/alerts",
         "originApp": "legal-compliance-risk/due-diligence-assistant"
+      }
+    ]
+  },
+  {
+    "name": "Analyze",
+    "canonicalKey": "analyze",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/:id/analyze",
+      "/ai/analyze",
+      "/feature/:featureKey?tool=analyze"
+    ],
+    "sourceProjects": [
+      "AIPermitZoningCompliance",
+      "ai_regulatory_compliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "frontend/src/pages/FeaturePage.js:1",
+        "route": "/feature/:featureKey?tool=analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/adaCompliance.js:72",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/documents.js:119",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/environmental.js:70",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/fireSafety.js:72",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/historical.js:70",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/inspections.js:72",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/noise.js:70",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/occupancy.js:70",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/parking.js:70",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/permits.js:108",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/planReview.js:70",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/setbacks.js:70",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/stormwater.js:70",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/violations.js:72",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "backend/routes/zoning.js:72",
+        "route": "/:id/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "frontend/src/App.tsx:55",
+        "route": "/ai/analyze",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
       }
     ]
   },
@@ -1520,12 +1777,14 @@
     "canonicalKey": "board readiness report",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/BoardReadinessReport",
-      "/board-readiness-report"
+      "/board-readiness-report",
+      "/board-readiness-report?tool=board-readiness-report"
     ],
     "sourceProjects": [
       "AiRegulatoryCompliance"
@@ -1534,6 +1793,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/pages/BoardReadinessReport.js:67",
+        "route": "/board-readiness-report?tool=board-readiness-report",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AiRegulatoryCompliance",
@@ -2718,12 +2984,14 @@
     "canonicalKey": "compliance finder gap",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/ComplianceGapFinder",
-      "/compliance-gap-finder"
+      "/compliance-gap-finder",
+      "/compliance-gap-finder?tool=compliance-gap-finder"
     ],
     "sourceProjects": [
       "AiRegulatoryCompliance"
@@ -2732,6 +3000,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/pages/ComplianceGapFinder.js:48",
+        "route": "/compliance-gap-finder?tool=compliance-gap-finder",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AiRegulatoryCompliance",
@@ -2881,12 +3156,14 @@
     "canonicalKey": "assessment control effectiveness",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/ControlEffectivenessAssessment",
-      "/control-effectiveness-assessment"
+      "/control-effectiveness-assessment",
+      "/control-effectiveness-assessment?tool=control-effectiveness-assessment"
     ],
     "sourceProjects": [
       "AiRegulatoryCompliance"
@@ -2895,6 +3172,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/pages/ControlEffectivenessAssessment.js:66",
+        "route": "/control-effectiveness-assessment?tool=control-effectiveness-assessment",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AiRegulatoryCompliance",
@@ -3130,6 +3414,32 @@
         "sourceProject": "AICannabisCultivationCompliance",
         "path": "backend/src/routes/notifications.js:62",
         "route": "/email",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "Energy Cost Optimizer",
+    "canonicalKey": "cost energy optimizer",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/energy-optimizer"
+    ],
+    "sourceProjects": [
+      "AICannabisCultivationCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/EnergyOptimizer.jsx:1",
+        "route": "/ai/energy-optimizer",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       }
     ]
@@ -3816,9 +4126,11 @@
     "canonicalKey": "estimate fee",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/fee-calculator?tool=fee-estimate",
       "/fee-estimate"
     ],
     "sourceProjects": [
@@ -3828,6 +4140,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPermitZoningCompliance",
+        "path": "frontend/src/pages/FeeCalculator.js:78",
+        "route": "/fee-calculator?tool=fee-estimate",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPermitZoningCompliance",
@@ -5357,6 +5676,86 @@
     ]
   },
   {
+    "name": "Generate",
+    "canonicalKey": "generate",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/api/ai/generate",
+      "/api/dsr-fulfillment/generate",
+      "/generate"
+    ],
+    "sourceProjects": [
+      "AIContractNegotiationAssistant",
+      "AIDueDiligenceAssistant",
+      "AIGDPRDataMappingPrivacyManager",
+      "AIImmigrationCaseManager",
+      "AIProposalSOWGenerator",
+      "ai_regulatory_compliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/contract-negotiation-assistant",
+      "legal-compliance-risk/due-diligence-assistant",
+      "legal-compliance-risk/gdpr-data-mapping-privacy-manager",
+      "legal-compliance-risk/immigration-case-manager",
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "backend/src/routes/interviewPrep.js:15",
+        "route": "/generate",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/server.js:381",
+        "route": "/api/dsr-fulfillment/generate",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "routers/alerts.py:86",
+        "route": "/generate",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIContractNegotiationAssistant",
+        "path": "backend/src/routes/ndaGenerator.js:109",
+        "route": "/generate",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIContractNegotiationAssistant",
+        "path": "backend/src/routes/termsOfServiceBuilder.js:109",
+        "route": "/generate",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDueDiligenceAssistant",
+        "path": "backend/routes/diligenceChecklist.js:17",
+        "route": "/generate",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIProposalSOWGenerator",
+        "path": "backend/server.js:613",
+        "route": "/api/ai/generate",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      }
+    ]
+  },
+  {
     "name": "Generate Policy",
     "canonicalKey": "generate policy",
     "aliases": [],
@@ -5661,11 +6060,13 @@
     "canonicalKey": "harvest optimizer timing",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/HarvestTimingOptimizer",
+      "/ai/harvest-timing",
       "/harvest-timing-optimizer"
     ],
     "sourceProjects": [
@@ -5675,6 +6076,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/HarvestTimingOptimizer.jsx:1",
+        "route": "/ai/harvest-timing",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
@@ -7483,6 +7891,32 @@
     ]
   },
   {
+    "name": "Lab Test Test Batch Id Details",
+    "canonicalKey": "batch id lab test",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/lab-tests/:id"
+    ],
+    "sourceProjects": [
+      "AICannabisCultivationCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/LabTestDetail.jsx:1",
+        "route": "/lab-tests/:id",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
     "name": "Lab Tests",
     "canonicalKey": "lab test",
     "aliases": [
@@ -7588,6 +8022,32 @@
         "sourceProject": "AICannabisCultivationCompliance",
         "path": "frontend/src/pages/LicenseRenewal.jsx",
         "route": "/LicenseRenewal",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "License Renewal Automator",
+    "canonicalKey": "automator license renewal",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/license-renewal"
+    ],
+    "sourceProjects": [
+      "AICannabisCultivationCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/LicenseRenewal.jsx:1",
+        "route": "/ai/license-renewal",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       }
     ]
@@ -8139,6 +8599,32 @@
         "sourceProject": "AICannabisCultivationCompliance",
         "path": "frontend/src/pages/MicrobialAnalyzer.jsx",
         "route": "/MicrobialAnalyzer",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
+    "name": "Microbial Testing Analyzer",
+    "canonicalKey": "analyzer microbial testing",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/microbial-analyzer"
+    ],
+    "sourceProjects": [
+      "AICannabisCultivationCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/MicrobialAnalyzer.jsx:1",
+        "route": "/ai/microbial-analyzer",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       }
     ]
@@ -8881,6 +9367,32 @@
     ]
   },
   {
+    "name": "Pest Disease Detection",
+    "canonicalKey": "detection disease pest",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/pest-detection"
+    ],
+    "sourceProjects": [
+      "AICannabisCultivationCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/PestDetection.jsx:1",
+        "route": "/ai/pest-detection",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
     "name": "Plants",
     "canonicalKey": "plant",
     "aliases": [
@@ -9134,12 +9646,14 @@
     "canonicalKey": "conflict detector policy",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/PolicyConflictDetector",
-      "/policy-conflict-detector"
+      "/policy-conflict-detector",
+      "/policy-conflict-detector?tool=policy-conflict-detector"
     ],
     "sourceProjects": [
       "AiRegulatoryCompliance"
@@ -9148,6 +9662,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/pages/PolicyConflictDetector.js:66",
+        "route": "/policy-conflict-detector?tool=policy-conflict-detector",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AiRegulatoryCompliance",
@@ -9552,6 +10073,32 @@
     ]
   },
   {
+    "name": "Regulatory Change Tracker",
+    "canonicalKey": "change regulatory tracker",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/regulatory-tracker"
+    ],
+    "sourceProjects": [
+      "AICannabisCultivationCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/RegulatoryTracker.jsx:1",
+        "route": "/ai/regulatory-tracker",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
     "name": "Regulatory Tracker",
     "canonicalKey": "regulatory tracker",
     "aliases": [],
@@ -9566,21 +10113,12 @@
       "/regulatory-tracker"
     ],
     "sourceProjects": [
-      "AICannabisCultivationCompliance",
-      "AIESGSustainabilityReporter"
+      "AICannabisCultivationCompliance"
     ],
     "consolidatedFromApps": [
-      "legal-compliance-risk/gdpr-data-mapping-privacy-manager",
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIESGSustainabilityReporter",
-        "path": "backend/routes/aiExtensions.js:190",
-        "route": "/regulatory-tracker",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
       {
         "kind": "api",
         "sourceProject": "AICannabisCultivationCompliance",
@@ -9616,12 +10154,14 @@
     "canonicalKey": "planner remediation",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/RemediationPlanner",
-      "/remediation-planner"
+      "/remediation-planner",
+      "/remediation-planner?tool=remediation-planner"
     ],
     "sourceProjects": [
       "AiRegulatoryCompliance"
@@ -9630,6 +10170,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/pages/RemediationPlanner.js:50",
+        "route": "/remediation-planner?tool=remediation-planner",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AiRegulatoryCompliance",
@@ -11257,6 +11804,32 @@
     ]
   },
   {
+    "name": "Seed Clone Supplier Audit",
+    "canonicalKey": "audit clone seed supplier",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/seed-supplier"
+    ],
+    "sourceProjects": [
+      "AICannabisCultivationCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/SeedSupplierAudit.jsx:1",
+        "route": "/ai/seed-supplier",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
     "name": "Seed Supplier",
     "canonicalKey": "seed supplier",
     "aliases": [],
@@ -11823,6 +12396,32 @@
     ]
   },
   {
+    "name": "Supply Chain Auditor",
+    "canonicalKey": "auditor chain supply",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/supply-chain"
+    ],
+    "sourceProjects": [
+      "AICannabisCultivationCompliance"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/pages/SupplyChainAudit.jsx:1",
+        "route": "/ai/supply-chain",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      }
+    ]
+  },
+  {
     "name": "Training",
     "canonicalKey": "training",
     "aliases": [],
@@ -12270,12 +12869,14 @@
     "canonicalKey": "risk scorer vendor",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/VendorRiskScorer",
-      "/vendor-risk-scorer"
+      "/vendor-risk-scorer",
+      "/vendor-risk-scorer?tool=vendor-risk-scorer"
     ],
     "sourceProjects": [
       "AiRegulatoryCompliance"
@@ -12284,6 +12885,13 @@
       "legal-compliance-risk/regulatory-compliance"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/pages/VendorRiskScorer.js:59",
+        "route": "/vendor-risk-scorer?tool=vendor-risk-scorer",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
       {
         "kind": "api",
         "sourceProject": "AiRegulatoryCompliance",
